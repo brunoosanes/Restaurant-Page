@@ -1,5 +1,5 @@
 import { mainContentContainer } from "./firstLoad";
-
+import displayMenu from "./menu";
 const displayHome = function () {
   mainContentContainer.innerHTML = "";
   const homeContainer = document.createElement("div");
@@ -15,6 +15,7 @@ const displayHome = function () {
   menuBtn.classList.add("menuBtn");
   menuBtn.textContent = "VER MENU";
   homeContainer.appendChild(menuBtn);
+  menuBtn.addEventListener("click", displayMenu);
 };
 
 export default displayHome;
