@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/src/imgs/pizza.jpg);
+  background-position: center;
+  background-size: cover, cover, cover, cover, cover, cover, cover, cover, cover,
+    cover;
+  background-attachment: fixed;
+  max-width: 100vw;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  border-bottom: 2px solid #c59d5f;
+  color: goldenrod;
+  font-weight: 600;
+  font-size: 2em;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContentContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs {
+  padding: 10px;
+  padding-bottom: 2px;
+}
+
+.tabs:hover {
+  border-bottom: goldenrod 1px solid;
+  font-size: 33px;
+  cursor: pointer;
+}
+
+.containers {
+  height: 60vh;
+  width: 70vw;
+  background-color: #00000099;
+  border-radius: 10px;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.mainText {
+  font-family: "Marcellus SC", serif;
+  color: goldenrod;
+  font-size: 4em;
+  border-bottom: 2px solid #c59d5f;
+  padding: 0 20px 20px 20px;
+}
+
+.menuBtn {
+  color: black;
+  background-color: #c59d5f;
+  width: 240px;
+  height: 80px;
+  font-size: 30px;
+  border-color: #c59d5f;
+  border-style: none;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.menuBtn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #c59d5f;
+}
+
+
+.pizzaContainer1,
+.pizzaContainer2,
+.pizzaContainer3,
+.pizzaContainer4 {
+  height: 28vh;
+  width: 33vw;
+  border: 1px solid #c59d5f;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pizzaTxt1,
+.pizzaTxt2,
+.pizzaTxt3,
+.pizzaTxt4 {
+  color: white;
+  font-size: 1.7rem;
+  max-width: 15vw;
+  align-self: flex-start;
+  margin-top: 2vh
+}
+.pizzaImg1 {
+  background-image: url(../src/imgs/1.jpg);
+  width: 15vw;
+  height: 25vh;
+  background-position: center;
+  border-radius: 50%;
+  background-size: 115%;
+  background-repeat: no-repeat;
+}
+.pizzaImg2 {
+  background-image: url(../src/imgs/margherita.jpg);
+  width: 15vw;
+  height: 25vh;
+  background-position: center;
+  border-radius: 50%;
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+.pizzaImg3 {
+  background-image: url(../src/imgs/portuguesa.jpg);
+  width: 15vw;
+  height: 25vh;
+  background-position: center;
+  border-radius: 50%;
+  background-size: 140%;
+  background-repeat: no-repeat;
+}
+.pizzaImg4 {
+  background-image: url(../src/imgs/calabresa.jpg);
+  width: 15vw;
+  height: 25vh;
+  background-position: center;
+  border-radius: 50%;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.pizzaContainer1:hover,
+.pizzaContainer2:hover,
+.pizzaContainer3:hover,
+.pizzaContainer4:hover {
+  border:2px solid goldenrod;
+  cursor: pointer;
+}
+
+.loremIpsum {
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  padding: 30px;
+}
+.footer {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #c59d5f;
+  color: #c59d5f;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
