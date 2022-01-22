@@ -4,10 +4,6 @@ import displayMenu from "./menu";
 import displaySobre from "./sobre";
 import displayContato from "./contato";
 import "../src/style.css";
-import "../src/imgs/calabresa.jpg";
-import "../src/imgs/marguerita.jpg";
-import "../src/imgs/pepperoni.jpg";
-import "../src/imgs/portuguesa.jpg";
 
 firstLoad();
 
